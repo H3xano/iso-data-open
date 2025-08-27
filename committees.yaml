@@ -125,7 +125,6 @@
   - 45072
   - 45086
   - 45374
-  - 45382
   - 5013818
   - 10778243
   - 45252
@@ -134,6 +133,7 @@
   - 45316
   - 45332
   - 6794475
+  - 45382
   pMembers:
   - id: 1485
     acronym: SABS
@@ -333,7 +333,7 @@
   - id: 299538
     acronym: SIST
   - id: 304927
-    acronym: SWASA
+    acronym: ESWASA
   - id: 308796
     acronym: OSN
   - id: 308866
@@ -1822,7 +1822,7 @@
   - id: 288025
     acronym: RSB
   - id: 304927
-    acronym: SWASA
+    acronym: ESWASA
   - id: 308796
     acronym: OSN
   - id: 308878
@@ -2934,9 +2934,13 @@
     reference: ISO/IEC JTC 1
   - id: 46706
     reference: ISO/TC 22
+  - id: 10842861
+    reference: ISO/TC 351
   - id: 53352
     reference: ISO/TC 159/SC 1
   - id: 9287405
+  - id: 48750
+    reference: ISO/TC 46
   - id: 6483279
     reference: ISO/IEC JTC 1/SC 41
   - id: 45374
@@ -4458,6 +4462,17 @@
     acronym: IMANOR
   - id: 1998
     acronym: NZSO
+  committeeLiaisons:
+  - id: 7145156
+    reference: ISO/TC 321
+  - id: 7314327
+    reference: ISO/TC 324
+  - id: 53186
+    reference: ISO/TC 154
+  - id: 9824329
+    reference: ISO/TC 344
+  - id: 7203984
+    reference: ISO/TC 323
   organizationLiaisons:
   - id: 10995725
     acronym: ODCCN
@@ -5130,6 +5145,8 @@
     acronym: ICMM
   - id: 9915
     acronym: IMA-Europe
+  - id: 10164
+    acronym: UNIDO
   - id: 336062
     acronym: ECOS (Environment)
   - id: 5761047
@@ -7381,10 +7398,16 @@
   committeeLiaisons:
   - id: 52214
     reference: ISO/TC 130
+  - id: 53782
+    reference: ISO/TC 173
+  - id: 53812
+    reference: ISO/TC 173/SC 2
   - id: 8933440
     reference: ISO/TC 338
   - id: 52040
     reference: ISO/TC 122
+  - id: 53832
+    reference: ISO/TC 173/SC 3
   - id: 52082
     reference: ISO/TC 122/SC 4
   - id: 52068
@@ -10220,6 +10243,8 @@
     acronym: TSE
   - id: 2172
     acronym: SE UkrNDNC
+  - id: 2188
+    acronym: ANSI
   - id: 2199
     acronym: STAMEQ
   - id: 2209
@@ -13774,7 +13799,7 @@
   - id: 288025
     acronym: RSB
   - id: 304927
-    acronym: SWASA
+    acronym: ESWASA
   - id: 308829
     acronym: SAZ
   - id: 308857
@@ -15945,12 +15970,12 @@
   - id: 47728
     reference: ISO/TC 31/SC 5
   organizationLiaisons:
-  - id: 8845
-    acronym: COPA-COGECA
   - id: 8890
     acronym: CEMA
   - id: 9098
     acronym: FAO
+  - id: 8845
+    acronym: COPA-COGECA
   sortKey: ISO/TC 023/~SC 007
 - id: 47110
   reference: ISO/TC 23/SC 13
@@ -17198,8 +17223,6 @@
     acronym: KATS
   - id: 1700
     acronym: EOS
-  - id: 1717
-    acronym: UNE
   - id: 1794
     acronym: BIS
   - id: 1803
@@ -17239,6 +17262,8 @@
     acronym: BBN
   - id: 1657
     acronym: CSK
+  - id: 1717
+    acronym: UNE
   - id: 1721
     acronym: EVS
   - id: 1738
@@ -20028,8 +20053,6 @@
   - id: 2209
     acronym: ISS
   committeeLiaisons:
-  - id: 47166
-    reference: ISO/TC 24
   - id: 54756
     reference: ISO/TC 206
   - id: 560340
@@ -20038,6 +20061,8 @@
     reference: ISO/TC 71/SC 1
   - id: 52736
     reference: ISO/TC 146/SC 2
+  - id: 47166
+    reference: ISO/TC 24
   organizationLiaisons:
   - id: 3182
     acronym: EC - European Commission
@@ -20079,7 +20104,6 @@
   - 47872
   - 47874
   - 47878
-  - 47880
   - 47918
   - 47920
   - 47924
@@ -20093,6 +20117,7 @@
   - 47912
   - 47936
   - 583916
+  - 47880
   pMembers:
   - id: 1511
     acronym: DIN
@@ -20348,7 +20373,7 @@
   - id: 301004
     acronym: DBOS
   - id: 304927
-    acronym: SWASA
+    acronym: ESWASA
   - id: 308796
     acronym: OSN
   - id: 308845
@@ -21217,8 +21242,6 @@
     acronym: DS
   - id: 1700
     acronym: EOS
-  - id: 1717
-    acronym: UNE
   - id: 1738
     acronym: AFNOR
   - id: 1747
@@ -21292,6 +21315,8 @@
     acronym: HZN
   - id: 1684
     acronym: NC
+  - id: 1717
+    acronym: UNE
   - id: 1721
     acronym: EVS
   - id: 1725
@@ -25894,6 +25919,8 @@
       et d'étiquetages qualité des fibres et des fils.
   parentId: 48148
   pMembers:
+  - id: 1511
+    acronym: DIN
   - id: 1537
     acronym: BSTI
   - id: 1561
@@ -25946,8 +25973,6 @@
     acronym: TISI
   - id: 2188
     acronym: ANSI
-  - id: 1511
-    acronym: DIN
   oMembers:
   - id: 1485
     acronym: SABS
@@ -31368,6 +31393,8 @@
     acronym: UNI
   - id: 1835
     acronym: JISC
+  - id: 1844
+    acronym: JSMO
   - id: 1911
     acronym: DSM
   - id: 2027
@@ -36784,7 +36811,7 @@
   - id: 288025
     acronym: RSB
   - id: 304927
-    acronym: SWASA
+    acronym: ESWASA
   - id: 308829
     acronym: SAZ
   - id: 308878
@@ -39872,6 +39899,8 @@
     acronym: SIS
   - id: 2106
     acronym: SNV
+  - id: 2176
+    acronym: GOST R
   - id: 2188
     acronym: ANSI
   - id: 308878
@@ -39917,8 +39946,6 @@
     acronym: UNMZ
   - id: 2158
     acronym: INNORPI
-  - id: 2176
-    acronym: GOST R
   - id: 2209
     acronym: ISS
   - id: 288025
@@ -43691,8 +43718,6 @@
     acronym: PKN
   - id: 2064
     acronym: BSI
-  - id: 2106
-    acronym: SNV
   - id: 2176
     acronym: GOST R
   - id: 308866
@@ -48123,8 +48148,8 @@
   - 51296
   - 51338
   - 51346
-  - 653079
   - 51320
+  - 653079
   pMembers:
   - id: 1511
     acronym: DIN
@@ -49029,6 +49054,8 @@
     acronym: AFNOR
   - id: 1794
     acronym: BIS
+  - id: 1815
+    acronym: NSAI
   - id: 1823
     acronym: UNI
   - id: 1835
@@ -49062,8 +49089,6 @@
     acronym: MSZT
   - id: 1803
     acronym: INSO
-  - id: 1815
-    acronym: NSAI
   - id: 2027
     acronym: NEN
   - id: 2054
@@ -53844,6 +53869,8 @@
   - id: 308866
     acronym: UNBS
   oMembers:
+  - id: 1529
+    acronym: ASI
   - id: 1537
     acronym: BSTI
   - id: 1629
@@ -53888,8 +53915,6 @@
     acronym: SE UkrNDNC
   - id: 2209
     acronym: ISS
-  - id: 1529
-    acronym: ASI
   committeeLiaisons:
   - id: 54972
     reference: ISO/TC 216
@@ -63685,11 +63710,11 @@
       <p>1) Objets ou dispositifs qui sont implantés chirurgicalement  dans le corps, de manière temporaire ou permanente, à but de  diagnostic ou de thérapeutique.</p>
   childrenId:
   - 53080
-  - 53086
   - 53110
   - 53116
   - 53122
   - 546151
+  - 53086
   pMembers:
   - id: 1511
     acronym: DIN
@@ -63955,6 +63980,8 @@
     acronym: SIS
   - id: 2106
     acronym: SNV
+  - id: 2168
+    acronym: TSE
   - id: 2176
     acronym: GOST R
   - id: 2188
@@ -64597,6 +64624,8 @@
     reference: ISO/TC 321
   - id: 53882
     reference: ISO/TC 176
+  - id: 7314327
+    reference: ISO/TC 324
   - id: 48856
     reference: ISO/TC 46/SC 11
   - id: 54706
@@ -65401,8 +65430,8 @@
   childrenId:
   - 53362
   - 53372
-  - 53352
   - 53390
+  - 53352
   pMembers:
   - id: 1485
     acronym: SABS
@@ -65567,8 +65596,6 @@
   pMembers:
   - id: 1511
     acronym: DIN
-  - id: 1561
-    acronym: NBN
   - id: 1619
     acronym: SCC
   - id: 1635
@@ -65598,6 +65625,8 @@
   oMembers:
   - id: 1520
     acronym: IRAM
+  - id: 1561
+    acronym: NBN
   - id: 1579
     acronym: ABNT
   - id: 1597
@@ -70408,7 +70437,7 @@
   - id: 295409
     acronym: CPTTM
   - id: 304927
-    acronym: SWASA
+    acronym: ESWASA
   - id: 374819
     acronym: BSB
   - id: 537437
@@ -74272,8 +74301,6 @@
       all possible end users across national boundaries.</P>"
   parentId: 54448
   pMembers:
-  - id: 1511
-    acronym: DIN
   - id: 1529
     acronym: ASI
   - id: 1561
@@ -74326,6 +74353,8 @@
     acronym: ANSI
   - id: 547395
     acronym: ISME
+  - id: 1511
+    acronym: DIN
   oMembers:
   - id: 1520
     acronym: IRAM
@@ -75198,14 +75227,6 @@
   - id: 308878
     acronym: O'ZTTSA
   committeeLiaisons:
-  - id: 5243738
-    reference: ISO/TC 291
-  - id: 5391154
-    reference: ISO/TC 22/SC 37
-  - id: 53314
-    reference: ISO/TC 158
-  - id: 5391370
-    reference: ISO/TC 22/SC 41
   - id: 49040
     reference: ISO/TC 58/SC 3
   - id: 48692
@@ -75222,6 +75243,14 @@
     reference: ISO/TC 22
   - id: 582777
   - id: 55078
+  - id: 5243738
+    reference: ISO/TC 291
+  - id: 5391154
+    reference: ISO/TC 22/SC 37
+  - id: 53314
+    reference: ISO/TC 158
+  - id: 5391370
+    reference: ISO/TC 22/SC 41
   organizationLiaisons:
   - id: 3182
     acronym: EC - European Commission
@@ -76158,12 +76187,12 @@
   - id: 2133
     acronym: UNMZ
   organizationLiaisons:
+  - id: 9286
+    acronym: VAMAS
   - id: 9672
     acronym: IUPAC
   - id: 9676
     acronym: IUVSTA
-  - id: 9286
-    acronym: VAMAS
   sortKey: ISO/TC 201/~SC 006
 - id: 54662
   reference: ISO/TC 201/SC 7
@@ -77256,8 +77285,6 @@
   - id: 2133
     acronym: UNMZ
   oMembers:
-  - id: 1684
-    acronym: NC
   - id: 1700
     acronym: EOS
   - id: 1717
@@ -77296,6 +77323,8 @@
     acronym: ISS
   - id: 308878
     acronym: O'ZTTSA
+  - id: 1684
+    acronym: NC
   committeeLiaisons:
   - id: 47812
     reference: ISO/TC 33
@@ -77597,7 +77626,7 @@
   - id: 299538
     acronym: SIST
   - id: 304927
-    acronym: SWASA
+    acronym: ESWASA
   - id: 308845
     acronym: ANM
   - id: 308878
@@ -77959,7 +77988,7 @@
   - id: 299538
     acronym: SIST
   - id: 304927
-    acronym: SWASA
+    acronym: ESWASA
   - id: 308878
     acronym: O'ZTTSA
   - id: 371281
@@ -78211,7 +78240,7 @@
   - id: 288025
     acronym: RSB
   - id: 304927
-    acronym: SWASA
+    acronym: ESWASA
   - id: 547395
     acronym: ISME
   - id: 8867946
@@ -78444,7 +78473,7 @@
   - id: 2199
     acronym: STAMEQ
   - id: 304927
-    acronym: SWASA
+    acronym: ESWASA
   - id: 547395
     acronym: ISME
   committeeLiaisons:
@@ -78688,7 +78717,7 @@
   - id: 2199
     acronym: STAMEQ
   - id: 304927
-    acronym: SWASA
+    acronym: ESWASA
   - id: 308829
     acronym: SAZ
   - id: 547395
@@ -78912,7 +78941,7 @@
   - id: 288025
     acronym: RSB
   - id: 304927
-    acronym: SWASA
+    acronym: ESWASA
   - id: 308857
     acronym: COSQC
   - id: 308878
@@ -79177,7 +79206,7 @@
   - id: 258872
     acronym: PSI
   - id: 304927
-    acronym: SWASA
+    acronym: ESWASA
   - id: 308857
     acronym: COSQC
   - id: 308866
@@ -79874,7 +79903,7 @@
   - id: 2172
     acronym: SE UkrNDNC
   - id: 304927
-    acronym: SWASA
+    acronym: ESWASA
   - id: 308866
     acronym: UNBS
   - id: 308878
@@ -80908,6 +80937,8 @@
     acronym: IHTSDO
   - id: 6756917
     acronym: GA4GH
+  - id: 11386815
+    acronym: MAQC
   sortKey: ISO/TC 215/~SC 001
 - id: 54972
   reference: ISO/TC 216
@@ -82136,6 +82167,8 @@
     acronym: KATS
   - id: 1717
     acronym: UNE
+  - id: 1794
+    acronym: BIS
   - id: 1803
     acronym: INSO
   - id: 1823
@@ -82167,8 +82200,6 @@
     acronym: AFNOR
   - id: 1770
     acronym: ITCHKSAR
-  - id: 1794
-    acronym: BIS
   - id: 1815
     acronym: NSAI
   - id: 1931
@@ -84673,6 +84704,12 @@
   - id: 576513
     acronym: ONANOR
   committeeLiaisons:
+  - id: 4857129
+    reference: ISO/TC 283
+  - id: 4587737
+    reference: ISO/TC 279
+  - id: 46484
+    reference: ISO/TC 20
   - id: 53896
     reference: ISO/TC 176/SC 2
   - id: 6794475
@@ -84692,12 +84729,6 @@
     reference: ISO/TC 59/SC 18
   - id: 45020
     reference: ISO/IEC JTC 1
-  - id: 4857129
-    reference: ISO/TC 283
-  - id: 4587737
-    reference: ISO/TC 279
-  - id: 46484
-    reference: ISO/TC 20
   organizationLiaisons:
   - id: 9297
     acronym: IPMA
@@ -88223,10 +88254,6 @@
   - id: 308878
     acronym: O'ZTTSA
   committeeLiaisons:
-  - id: 5052041
-    reference: ISO/TC 82/SC 7
-  - id: 6170397
-    reference: ISO/PC 305
   - id: 299764
     reference: ISO/TC 224
   - id: 52834
@@ -88235,6 +88262,10 @@
     reference: ISO/TC 275
   - id: 54328
     reference: ISO/TC 190
+  - id: 5052041
+    reference: ISO/TC 82/SC 7
+  - id: 6170397
+    reference: ISO/PC 305
   organizationLiaisons:
   - id: 5122877
     acronym: WFEO
@@ -89019,6 +89050,8 @@
     acronym: KATS
   - id: 1759
     acronym: NQIS ELOT
+  - id: 1794
+    acronym: BIS
   - id: 1803
     acronym: INSO
   - id: 1823
@@ -89056,8 +89089,6 @@
     acronym: SFS
   - id: 1738
     acronym: AFNOR
-  - id: 1794
-    acronym: BIS
   - id: 1835
     acronym: JISC
   - id: 1854
@@ -89792,6 +89823,8 @@
     acronym: DRII
   - id: 9913925
     acronym: ICE
+  - id: 10995725
+    acronym: ODCCN
   sortKey: ISO/TC 292
 - id: 9918350
   reference: ISO/TC 292/SC 1
@@ -90942,6 +90975,8 @@
     acronym: TISI
   - id: 2143
     acronym: ATN
+  - id: 2149
+    acronym: TTBS
   - id: 2168
     acronym: TSE
   - id: 288025
@@ -90949,7 +90984,7 @@
   - id: 295409
     acronym: CPTTM
   - id: 304927
-    acronym: SWASA
+    acronym: ESWASA
   - id: 308857
     acronym: COSQC
   - id: 308878
@@ -94367,8 +94402,6 @@
     acronym: BSI
   - id: 2106
     acronym: SNV
-  - id: 2149
-    acronym: TTBS
   - id: 2176
     acronym: GOST R
   - id: 308866
@@ -94406,6 +94439,8 @@
     acronym: UNMS SR
   - id: 2133
     acronym: UNMZ
+  - id: 2149
+    acronym: TTBS
   - id: 2188
     acronym: ANSI
   - id: 288025
@@ -95983,6 +96018,8 @@
     acronym: SII
   - id: 1827
     acronym: BSJ
+  - id: 1835
+    acronym: JISC
   - id: 1848
     acronym: CTRM
   - id: 1998
@@ -96217,6 +96254,8 @@
   oMembers:
   - id: 1485
     acronym: SABS
+  - id: 1511
+    acronym: DIN
   - id: 1524
     acronym: SA
   - id: 1529
